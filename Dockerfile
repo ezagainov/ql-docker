@@ -24,7 +24,11 @@ ENV USER quake
 
 # download and extract steamcmd
 #RUN wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
-RUN tar -xvzf steamcmd_linux.tar.gz
+#RUN tar -xvzf steamcmd_linux.tar.gz
+
+RUN apt-get update
+RUN apt-get install -y --force-yes steamcmd
+
 
 # install the quake live server program
 RUN ./steamcmd.sh +login anonymous +app_update 349090 +quit
@@ -44,12 +48,12 @@ COPY workshop.txt ql/baseq3/
 RUN chown quake:quake ql/baseq3/workshop.txt
 COPY access.txt .quakelive/27960/baseq3/
 RUN chown -R quake:quake .quakelive
-COPY download-workshop.sh ./
-RUN chown quake:quake download-workshop.sh
+#COPY download-workshop.sh ./
+#RUN chown quake:quake download-workshop.sh
 USER quake
 
 # download the workshop items
-RUN ./download-workshop.sh
+#RUN ./download-workshop.sh
 
 # download and install latest minqlx
 # http://stackoverflow.com/a/26738019
