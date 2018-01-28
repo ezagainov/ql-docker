@@ -8,8 +8,8 @@ RUN apt-get install -y --force-yes libc6:i386 libstdc++6:i386 wget software-prop
 RUN add-apt-repository ppa:fkrull/deadsnakes
 RUN apt-get update
 RUN apt-get install -y --force-yes python3.5 python3.5-dev build-essential libzmq3-dev
-RUN apt-get update
-RUN apt-get install -y --force-yes steamcmd
+#RUN apt-get update
+#RUN apt-get install -y --force-yes steamcmd
 
 RUN useradd -ms /bin/bash quake
 
@@ -25,8 +25,8 @@ ENV HOME /home/quake
 ENV USER quake
 
 # download and extract steamcmd
-#RUN wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
-#RUN tar -xvzf steamcmd_linux.tar.gz
+RUN wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
+RUN tar -xvzf steamcmd_linux.tar.gz
 
 
 
