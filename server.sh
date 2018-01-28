@@ -3,7 +3,7 @@ gameport=${gameport:-'27960'}
 rconport=${rconport:-'28960'}
 
 location=${location:-'RU Saint Petersburg'}
-name=${name:-"Jh [$location]"}
+name=${name:-"Jh* Instagib FFA [$location]"}
 rcon_password=${rcon_password:-"quake1337!"}
 
 if [ "$admin" != "" ]; then
