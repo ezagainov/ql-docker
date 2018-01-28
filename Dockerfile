@@ -23,7 +23,7 @@ ENV HOME /home/quake
 ENV USER quake
 
 # download and extract steamcmd
-RUN wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
+#RUN wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
 RUN tar -xvzf steamcmd_linux.tar.gz
 
 # install the quake live server program
