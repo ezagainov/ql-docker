@@ -1,23 +1,23 @@
 # specify 1 map per line, mapname|factoryid
 # ex: aerowalk|ffa
 # see factories.txt for valid factory id values
-almostlost|turboca
-asylum|turboca
-blackcathedral|turboca
-campgrounds|turboca
-castledeathstalker|turboca
-deadandgone|turboca
-deepinside|turboca
-drunkenmummy|turboca
-henhouse|turboca
-hiddenfortress|turboca
-midlifecrisis|turboca
-overkill|turboca
-quarantine|turboca
-servitude|turboca
-spacechamber|turboca
-theatreofpain|turboca
-threestory|turboca
-thunderstruck|turboca
-trinity|turboca
-windowpain|turboca
+almostlost|iffa_jh
+asylum|iffa_jh
+blackcathedral|iffa_jh
+campgrounds|iffa_jh
+castledeathstalker|iffa_jh
+deadandgone|iffa_jh
+deepinside|iffa_jh
+drunkenmummy|iffa_jh
+henhouse|iffa_jh
+hiddenfortress|iffa_jh
+midlifecrisis|iffa_jh
+overkill|iffa_jh
+quarantine|iffa_jh
+servitude|iffa_jh
+spacechamber|iffa_jh
+theatreofpain|iffa_jh
+threestory|iffa_jh
+thunderstruck|iffa_jh
+trinity|iffa_jh
+windowpain|iffa_jh
